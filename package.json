@@ -1,0 +1,13 @@
+{
+  "name": "web2-tp4",
+  "version": "1.0.0",
+  "private": true,
+  "description": "TP4 Web II - Regalos grupales en tiempo real",
+  "engines": { "node": ">=22.9.0" },
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node --env-file-if-exists=.env dist/server.js"
+  },
+  "dependencies": { "ws": "8.18.3" },
+  "devDependencies": { "@types/node": "22.15.3", "@types/ws": "8.18.1", "typescript": "5.8.3" }
+}
